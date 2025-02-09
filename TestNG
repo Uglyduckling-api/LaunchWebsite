@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test  name="ChromeTest">
+  	<parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="com.qa.launch.testRunner"/>
+    </classes>
+  </test> 
+  <test  name="FirefoxTest">
+    <parameter name="browser" value="Mozilla" />
+    <classes>
+      <class name="com.qa.launch.testRunner"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->
